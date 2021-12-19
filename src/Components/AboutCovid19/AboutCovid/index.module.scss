@@ -1,0 +1,18 @@
+@import "../../../Utils/_mixins.scss";
+.mainContainer {
+    margin-top: 15px;
+    p {
+        padding: 15px 0px;
+        color: #919191;
+    }
+    .black_text {
+        color: black;
+        a {
+            color: $primary_color;
+            transition: 0.5s;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}

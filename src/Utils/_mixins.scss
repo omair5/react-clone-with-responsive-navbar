@@ -1,0 +1,49 @@
+$primary_color: #f2c417;
+$secondary_color: #444444;
+$primary_gradient: linear-gradient(45deg, #f2c417 0%, #ffe585 100%);
+
+@mixin MainHeading {
+    font-size: 35px;
+    font-size: clamp(18px, 5vw, 35px);
+    color: #139548;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    &::before {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 50px;
+        height: 3px;
+        background: #f2c417;
+        bottom: 0;
+        left: 0;
+    }
+}
+
+@mixin HorizontalAndVerticalCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin Input_Field {
+    display: block;
+    width: 100%;
+    padding: 0.475rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    &:focus {
+        box-shadow: 0px 0px 0px 3px rgba(158, 205, 255, 0.74);
+        border: 1px solid #ced4da;
+        outline: none;
+    }
+}

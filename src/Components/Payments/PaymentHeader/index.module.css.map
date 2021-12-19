@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,SAAS,CAAC;EACN,UAAU,EAAE,IAAI;EAChB,SAAS,EAAE,IAAI;EACf,KAAK,ECJS,OAAO;CDKxB",
+    "sources": [
+        "index.module.scss",
+        "../../../Utils/_mixins.scss"
+    ],
+    "names": [],
+    "file": "index.module.css"
+}

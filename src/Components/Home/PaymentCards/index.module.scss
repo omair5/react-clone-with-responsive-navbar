@@ -1,0 +1,12 @@
+.mainContainer {
+    padding: 15px 60px;
+    .link {
+        text-decoration: none !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .mainContainer {
+        padding: 15px 0px;
+    }
+}

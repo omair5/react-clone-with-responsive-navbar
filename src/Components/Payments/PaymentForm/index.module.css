@@ -1,0 +1,67 @@
+.mainContainer {
+  padding: 20px 0px;
+}
+
+.inputField {
+  display: block;
+  width: 100%;
+  padding: 0.475rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.inputField:focus {
+  -webkit-box-shadow: 0px 0px 0px 3px rgba(158, 205, 255, 0.74);
+          box-shadow: 0px 0px 0px 3px rgba(158, 205, 255, 0.74);
+  border: 1px solid #ced4da;
+  outline: none;
+}
+
+.disabledField {
+  background-color: #e9ecef;
+}
+
+.disabledField:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 1px solid #ced4da;
+  outline: none;
+}
+
+.userConsent span {
+  color: #f2c417;
+  cursor: pointer;
+  font-weight: lighter;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.userConsent span:hover {
+  color: #10964d;
+}
+
+.hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.buttonContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+/*# sourceMappingURL=index.module.css.map */

@@ -1,0 +1,23 @@
+.mainContainer {
+  margin-top: 15px;
+}
+
+.mainContainer p {
+  padding: 15px 0px;
+  color: #919191;
+}
+
+.mainContainer .black_text {
+  color: black;
+}
+
+.mainContainer .black_text a {
+  color: #f2c417;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.mainContainer .black_text a:hover {
+  text-decoration: none;
+}
+/*# sourceMappingURL=index.module.css.map */

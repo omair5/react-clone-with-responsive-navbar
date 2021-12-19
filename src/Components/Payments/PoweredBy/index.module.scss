@@ -1,0 +1,17 @@
+@import "../../../Utils/_mixins.scss";
+
+.mainContainer {
+    @include HorizontalAndVerticalCenter;
+    justify-content: flex-start;
+    img{
+        height: 50px
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .mainContainer {
+        img{
+            height: 30px
+        }
+    }
+  }

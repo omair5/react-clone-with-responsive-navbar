@@ -1,0 +1,39 @@
+@import "../../../Utils/_mixins.scss";
+.mainContainer {
+    padding: 20px 0px;
+}
+
+.inputField {
+    @include Input_Field;
+}
+.disabledField {
+    background-color: #e9ecef;
+    &:focus {
+        box-shadow: none;
+        border: 1px solid #ced4da;
+        outline: none;
+    }
+}
+
+.userConsent {
+    span {
+        color: $primary_color;
+        cursor: pointer;
+        font-weight: lighter;
+        transition: all 0.5s ease;
+        &:hover {
+            color: #10964d;
+        }
+    }
+}
+
+.hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.buttonContainer {
+    display: flex;
+    justify-content: flex-end;
+}

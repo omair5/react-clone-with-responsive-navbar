@@ -1,0 +1,31 @@
+.mainContainer {
+  padding: 50px 25px;
+  margin: auto;
+  min-height: 70vh;
+}
+
+.mainContainer p, .mainContainer h2 {
+  color: #484e53;
+  font-weight: bold;
+  opacity: 0.9;
+  font-size: 18px;
+  font-size: clamp(14px, 4vw, 18px);
+}
+
+.mainContainer h2 {
+  font-size: 28px;
+  font-size: clamp(15px, 5vw, 28px);
+}
+
+.mainContainer h1 {
+  color: #009d46;
+  margin: 20px 0px;
+  font-weight: 900;
+  font-size: 32px;
+  font-size: clamp(22px, 5vw, 32px);
+}
+
+.mainContainer .carouselContainer {
+  margin-top: 40px;
+}
+/*# sourceMappingURL=index.module.css.map */

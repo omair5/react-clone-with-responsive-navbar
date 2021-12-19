@@ -1,0 +1,27 @@
+.mainContainer {
+    padding: 50px 25px;
+    margin: auto;
+    min-height: 70vh;
+    p {
+        color: rgb(72, 78, 83);
+        font-weight: bold;
+        opacity: 0.9;
+        font-size: 18px;
+        font-size:clamp(14px,4vw,18px)
+    }
+    h2 {
+        @extend p;
+        font-size: 28px;
+        font-size: clamp(15px, 5vw, 28px);
+    }
+    h1 {
+        color: #009d46;
+        margin: 20px 0px;
+        font-weight: 900;
+        font-size: 32px;
+        font-size: clamp(22px, 5vw, 32px);
+    }
+    .carouselContainer {
+        margin-top: 40px;
+    }
+}

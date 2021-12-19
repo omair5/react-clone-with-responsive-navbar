@@ -1,0 +1,31 @@
+@import "../../Utils/_mixins.scss";
+.mainContainer {
+    background: #f2f5f8;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $secondary_color;
+    width: 100%;
+    .wrapper {
+        @include HorizontalAndVerticalCenter;
+        flex-direction: column;
+        margin: 27px auto;
+        .designAnddevelopedBy {
+            font-size: 13px;
+            padding: 5px;
+        }
+    }
+    .nbp {
+        color: $primary_color;
+        cursor: pointer;
+        transition: 0.5s;
+        &:hover {
+            color: #10964d;
+        }
+    }
+    .paysys {
+        margin-left: 5px;
+        margin-bottom: -3px;
+    }
+}
